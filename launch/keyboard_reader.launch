@@ -1,0 +1,3 @@
+<launch>
+    <node name="keyboard_reader" pkg="tiny_keyboard_reader" type="keyboard_reader.py" output="screen" launch-prefix="xterm -e"/>
+</launch>
